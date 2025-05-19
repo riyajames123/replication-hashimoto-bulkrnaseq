@@ -56,6 +56,19 @@ This repository contains shell and R scripts used to replicate the upstream bulk
 
 ---
 
+
+## ⚠️ Notes on Paths and Environment
+
+- The provided shell scripts contain **absolute paths** based on the author's local file system and may not work directly on other systems.
+- Users should **edit file paths** and **directory locations** in scripts (`.sh` and `.R`) before running them.
+- These scripts assume:
+  - Linux environment
+  - Tools like `fastp`, `bowtie2`, `hisat2`, `featureCounts`, `salmon`, and `multiqc` are available in the PATH
+  - R packages like `limma`, `edgeR`, `biomaRt`, and `ggplot2` are pre-installed
+- Conda or Docker environment files are **not provided** but recommended for reproducibility.
+
+---
+
 ## 📎 License
 
 MIT License 
