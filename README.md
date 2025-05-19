@@ -1,6 +1,6 @@
 # Replication Study: Bulk RNA-Seq Analysis in Hashimoto's Thyroiditis
 
-This repository contains shell and R scripts used to replicate the upstream bulk RNA-seq analysis pipeline from the study:
+This repository contains shell and R scripts used to replicate the bulk RNA-seq analysis pipeline from the study:
 
 > Yang, D., Wang, X., Sun, Y., Shao, Y., & Shi, X. (2024). Identification and experimental validation of genes associated with programmed cell death in dendritic cells of the thyroid tissue in Hashimoto’s thyroiditis. *International Immunopharmacology*, 142, 113083.
 
