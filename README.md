@@ -31,7 +31,7 @@ This repository contains shell and R scripts used to replicate the bulk RNA-seq 
 ##  DE Analysis Insights
 
 - Used **TMM normalization** & `voom` transformation.
-- PCA and MDS plots showed no sex-based separation — so sex was not included in the design matrix.
+- PCA and MDS plots showed no sex-based separation
 - DEGs were selected with:  
   `adjusted p-value < 0.05` and `|log2FC| > 1`
 - DEGs were cross-referenced with:
@@ -43,7 +43,7 @@ This repository contains shell and R scripts used to replicate the bulk RNA-seq 
 ##  Interpretation
 
 - Significant DEGs (e.g., **STAT1, TNFAIP3**) are known to affect dendritic cell function.
-- No strong evidence of DC-specific markers differentially expressed — likely due to:
+- No strong evidence of DC-specific markers differentially expressed - likely due to:
   - Small sample size (n=10)
   - Lack of cell-type resolution in bulk RNA-seq
 
