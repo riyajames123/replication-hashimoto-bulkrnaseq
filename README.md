@@ -6,7 +6,7 @@ This repository contains shell and R scripts used to replicate the bulk RNA-seq 
 
 ---
 
-## 📦 Dataset
+##  Dataset
 
 - RNA-seq samples from 10 human thyroid tissue samples (5 HT, 5 healthy controls)
 - 8 female, 2 male
@@ -15,7 +15,7 @@ This repository contains shell and R scripts used to replicate the bulk RNA-seq 
 
 ---
 
-## 🔁 Workflow Summary
+##  Workflow Summary
 
 | Step | Description | Script |
 |------|-------------|--------|
@@ -28,7 +28,7 @@ This repository contains shell and R scripts used to replicate the bulk RNA-seq 
 
 ---
 
-## 🧬 DE Analysis Insights
+##  DE Analysis Insights
 
 - Used **TMM normalization** & `voom` transformation.
 - PCA and MDS plots showed no sex-based separation — so sex was not included in the design matrix.
@@ -40,7 +40,7 @@ This repository contains shell and R scripts used to replicate the bulk RNA-seq 
 
 ---
 
-## 📊 Interpretation
+##  Interpretation
 
 - Significant DEGs (e.g., **STAT1, TNFAIP3**) are known to affect dendritic cell function.
 - No strong evidence of DC-specific markers differentially expressed — likely due to:
@@ -49,7 +49,7 @@ This repository contains shell and R scripts used to replicate the bulk RNA-seq 
 
 ---
 
-## 🚫 Data Disclaimer
+##  Data Disclaimer
 
 - Raw sequencing data was downloaded from **NGDC (HRA001684)**
 - All scripts are shared, but raw data is **not uploaded** due to data size and policy.
@@ -57,7 +57,7 @@ This repository contains shell and R scripts used to replicate the bulk RNA-seq 
 ---
 
 
-## ⚠️ Notes on Paths and Environment
+##  Notes on Paths and Environment
 
 - The provided shell scripts contain **absolute paths** based on the author's local file system and may not work directly on other systems.
 - Users should **edit file paths** and **directory locations** in scripts (`.sh` and `.R`) before running them.
@@ -69,7 +69,7 @@ This repository contains shell and R scripts used to replicate the bulk RNA-seq 
 
 ---
 
-## 📎 License
+##  License
 
 MIT License 
 
